@@ -1,0 +1,9 @@
+- name: install haproxy
+  yum:
+    name: haproxy-1.5.18
+    state: present
+
+- name: Configure the haproxy file
+  template: src=haproxy.cfg dest=/etc/haproxy/haproxy.cfg
+
+
