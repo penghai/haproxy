@@ -1,0 +1,4 @@
+
+haproxy_vip: 172.16.1.10
+haproxy_stats_port: 8888
+haproxy_maxconn: 32768
