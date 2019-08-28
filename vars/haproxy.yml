@@ -9,3 +9,4 @@ rabbitmq_admin_port: 15672
 rabbitmq_node_prot: 5672
 mariadb_port: 3306
 mariadb_cluste_init: 172.16.1.11
+mgr_port: "8080"
